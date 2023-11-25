@@ -1,0 +1,93 @@
+
+<!-- saved from url=(0067)http://127.0.0.1:5500/6m-software-1.2-cli-git/assignment/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./My Bio_sunil_files/styles.css">
+  </head>
+
+  <body>
+    <title>My Bio</title>
+
+    <h1>Personal Bio information</h1>
+
+    <div>
+      <img class="profile-pic" src="./My Bio_sunil_files/my_profile.jpg" alt="Your Image">
+    </div>
+
+    <div id="personal-info">
+      <p><strong>Personal - Info:</strong></p>
+
+      <p><strong>First Name:</strong> Sunil Kumar</p>
+      <p><strong>Last Name:</strong> Somarajan</p>
+      <p>
+        <strong>GitHub:</strong>
+        <a href="https://github.com/dakshajaan2012" target="_blank">dakshajaan2012</a>
+      </p>
+    </div>
+
+    <div id="location">
+      <p><strong>Location:</strong></p>
+      <img class="location" src="./My Bio_sunil_files/Sin_flag.jpg" alt="Singapore Flag">
+    </div>
+
+    <div id="hobbies">
+      <p><strong>Hobbies:</strong></p>
+      <ul>
+        <li>Football</li>
+        <li>Cricket</li>
+        <li>Jogging</li>
+      </ul>
+    </div>
+
+    <div id="bio-paragraph">
+      <p><strong>Bio-Paragraph:</strong></p>
+      <p>
+        A multitasker and enthusiast who thrives on jumping between various
+        tasks. I find joy in exploring different challenges and dislike
+        prolonged routines that lead to boredom. Whether it is coding on GitHub,
+        diving into hobbies, or embracing new adventures, I'm always on the
+        lookout for excitement and variety in life
+      </p>
+    </div>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
